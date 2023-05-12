@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "njpwerner.autodocstring",
+        "ryanluker.vscode-coverage-gutters",
+        "bungcip.better-toml",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "charliermarsh.ruff",
+    ]
+}

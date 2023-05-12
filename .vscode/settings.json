@@ -1,0 +1,24 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        88
+    ],
+    "python.formatting.provider": "none",
+    "python.linting.enabled": true,
+    "python.linting.mypyEnabled": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "files.insertFinalNewline": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoImportUserSymbols": true,
+    "python.analysis.typeCheckingMode": "basic"
+}
