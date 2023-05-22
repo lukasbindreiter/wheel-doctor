@@ -16,15 +16,15 @@ enable = true
 [tool.poetry.dependencies]
 python = ">=3.10,<4"
 typer = {extras = ["all"], version = "*"}
-tomli = "^2.0.1"
-tomli-w = "^1.0.0"
+tomli = "*"
+tomli-w = "*"
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.3.1"
-pytest-cov = "^4.0.0"
-black = "^23.3.0"
-ruff = "^0.0.264"
-mypy = "^1.2.0"
+pytest = "*"
+pytest-cov = "*"
+black = "*"
+ruff = "*"
+mypy = "*"
 
 [build-system]
 requires = ["poetry-core"]
